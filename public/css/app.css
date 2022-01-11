@@ -1,0 +1,55 @@
+body {
+  background-image: url(https://previews.123rf.com/images/mevar/mevar1702/mevar170200225/72445709-fondo-senza-cuciture-di-vettore-di-film-fondo-con-le-icone-della-linea-del-cinema-.jpg?fj=1);
+  font-family: "Special Elite", cursive;
+}
+
+.banner {
+  background-color: rgba(46, 46, 46, 0.424);
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner img {
+  height: 100px;
+}
+
+.banner h1 {
+  color: #80e6fd;
+  font-size: 4rem;
+}
+
+.container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container .row .card {
+  text-align: center;
+  background-color: #46b1c9e3;
+  color: #353127;
+  border-radius: 30px;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  width: 16.6666666667%;
+  transition: 0.5s;
+}
+
+.container .row .card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.container .row .card span {
+  font-weight: bold;
+}
+
+.container .row .card .card-img {
+  width: 100%;
+}
+
+.container .row .card .card-img img {
+  width: 100%;
+}
+
